@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PolyGen runtime storage
+backend/storage/models/*
+backend/storage/textures/*
+backend/storage/exports/*
+!backend/storage/models/.gitkeep
+!backend/storage/textures/.gitkeep
+!backend/storage/exports/.gitkeep
